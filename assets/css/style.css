@@ -1,0 +1,98 @@
+/**clearfix**/
+.clearfix::after {
+    content: "";
+    clear: block;
+    display: both;
+}
+
+/*body, container*/
+
+body {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 950px;
+    margin: auto;
+    line-height: 150%;
+}
+
+/*navigation*/
+
+header {
+    border-bottom: 1px solid lightgray;
+}
+
+#nav-h1 {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+li {
+    float: left;
+}
+
+.nav-items {
+	float: right;
+    display: black;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/**content**/ 
+
+.AboutMe {
+    max-width: 639px;
+    float: left;
+    position: relative;
+    top: 50px; 
+	background-color: white;
+    border: 1px solid black;   
+    padding-left: 10px;
+}
+
+
+.profile-pic {
+    float: left;
+    max-width: 200px;
+    max-height: 200px;
+    padding-right: 5px;
+
+}
+
+.ConnectWithMe {
+    position: relative;
+    top: 50px;
+    float: right;
+    max-width: 259px;
+    background-color: white;
+    border: 1px solid black;  
+    padding-left: 10px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+
+
